@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+}
+body {
+    background-image: url(../img/grid.png);
+    background-position: center;
+    background-repeat: repeat-y;
+    
+}
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+.book {
+    padding-top: 60px;
+    margin-left: -125px;
+    padding-bottom: 95px;
+}
+.book-img {
+    width: 404px;
+    height: 630px;
+}
+.book-desc {
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: stretch;
+    padding-left: 74px;
+    padding-top: 100px;
+    width: 600px;
+}
+.book-name {
+    font-size: 48px;
+    font-weight: bold;
+}
+.book-author {
+    font-size: 30px;
+    padding-top: 15px;
+}
+.book-annotation {
+    font-size: 18px;
+    padding-top: 35px;
+}
+.book-price {
+    font-size: 48px;
+    padding-top: 47px;
+    color: #313131;
+}
+.book-buttons {
+    flex-wrap: nowrap;
+    padding-top: 63px;
+    height: 68px;
+}
+.button {
+    height: 68px;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+.button--buy {
+    background: #F05A22;
+    border: 2px solid #F05A22;
+    color: white;
+}
+.button--moreinfo {
+    background: transparent;
+    border: 2px solid #F05A22;
+    color: #F05A22;
+    margin-left: 8px;
+}
+.button-text {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.delivery {
+    width: 1368px;
+    height: 409px;
+    background: #f2f2f2bb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.delivery-title {
+    height: 120px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: flex-start;
+    text-align: center;
+}
+.delivery-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.page-link {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    padding: 30px;
+}
+.link-img {
+    margin: auto;
+}
+.page-link-text {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    height: 45px;
+}
